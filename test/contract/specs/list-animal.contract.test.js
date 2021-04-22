@@ -23,7 +23,7 @@ describe('Given an Animal Service', () => {
                             ),
                             isVaccinated: Matchers.boolean(true),
                             name: Matchers.string("Manchas"),
-                            vaccines: Matchers.eachLike(["rabia"], {min: 1})
+                            vaccines: Matchers.eachLike("rabia", {min: 1})
                         },
                         {min: 1}
                     )

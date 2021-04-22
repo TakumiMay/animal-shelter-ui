@@ -24,9 +24,7 @@
             "isVaccinated": true,
             "name": "Manchas",
             "vaccines": [
-              [
-                "rabia"
-              ]
+              "rabia"
             ]
           }
         ],

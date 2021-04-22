@@ -1,5 +1,5 @@
-I, [2021-04-21T20:17:57.830591 #10820]  INFO -- : Registered expected interaction GET /animals
-D, [2021-04-21T20:17:57.831629 #10820] DEBUG -- : {
+I, [2021-04-21T20:31:01.966533 #14272]  INFO -- : Registered expected interaction GET /animals
+D, [2021-04-21T20:31:01.967535 #14272] DEBUG -- : {
   "description": "a request to get all animals",
   "providerState": "there are animals",
   "request": {
@@ -38,9 +38,7 @@ D, [2021-04-21T20:17:57.831629 #10820] DEBUG -- : {
         },
         "vaccines": {
           "json_class": "Pact::ArrayLike",
-          "contents": [
-            "rabia"
-          ],
+          "contents": "rabia",
           "min": 1
         }
       },
@@ -49,8 +47,8 @@ D, [2021-04-21T20:17:57.831629 #10820] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-04-21T20:17:57.862566 #10820]  INFO -- : Received request GET /animals
-D, [2021-04-21T20:17:57.862566 #10820] DEBUG -- : {
+I, [2021-04-21T20:31:01.997373 #14272]  INFO -- : Received request GET /animals
+D, [2021-04-21T20:31:01.998375 #14272] DEBUG -- : {
   "path": "/animals",
   "query": "",
   "method": "get",
@@ -66,8 +64,8 @@ D, [2021-04-21T20:17:57.862566 #10820] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-04-21T20:17:57.863602 #10820]  INFO -- : Found matching response for GET /animals
-D, [2021-04-21T20:17:57.863602 #10820] DEBUG -- : {
+I, [2021-04-21T20:31:01.998375 #14272]  INFO -- : Found matching response for GET /animals
+D, [2021-04-21T20:31:01.999374 #14272] DEBUG -- : {
   "status": 200,
   "headers": {
   },
@@ -99,15 +97,13 @@ D, [2021-04-21T20:17:57.863602 #10820] DEBUG -- : {
       },
       "vaccines": {
         "json_class": "Pact::ArrayLike",
-        "contents": [
-          "rabia"
-        ],
+        "contents": "rabia",
         "min": 1
       }
     },
     "min": 1
   }
 }
-I, [2021-04-21T20:17:57.895833 #10820]  INFO -- : Verifying - interactions matched
-I, [2021-04-21T20:17:57.910374 #10820]  INFO -- : Cleared interactions
-I, [2021-04-21T20:17:57.957341 #10820]  INFO -- : Writing pact for AnimalShelterBack to C:/Users/Mayumi/animal-shelter-ui/test/contract/pacts/animalshelterfront-animalshelterback.json
+I, [2021-04-21T20:31:02.027833 #14272]  INFO -- : Verifying - interactions matched
+I, [2021-04-21T20:31:02.043895 #14272]  INFO -- : Cleared interactions
+I, [2021-04-21T20:31:02.064665 #14272]  INFO -- : Writing pact for AnimalShelterBack to C:/Users/Mayumi/animal-shelter-ui/test/contract/pacts/animalshelterfront-animalshelterback.json

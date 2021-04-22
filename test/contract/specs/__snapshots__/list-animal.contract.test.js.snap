@@ -8,9 +8,7 @@ Array [
     "isVaccinated": true,
     "name": "Manchas",
     "vaccines": Array [
-      Array [
-        "rabia",
-      ],
+      "rabia",
     ],
   },
 ]
